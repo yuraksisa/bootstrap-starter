@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@fortawesome/fontawesome-free@^5.2.0":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.2.0.tgz#50cd9856774351c56c0b1b0db4efe122d7913e58"
+
 "@gulp-sourcemaps/map-sources@1.X":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@gulp-sourcemaps/map-sources/-/map-sources-1.0.0.tgz#890ae7c5d8c877f6d384860215ace9d7ec945bda"
