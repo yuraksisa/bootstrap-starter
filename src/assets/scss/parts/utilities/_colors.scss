@@ -4,7 +4,12 @@
 // Descriptive colors
 // ===================================================================
 $white: #ffffff !default;
+$transparent-white: rgba(255, 255, 255, 0.2);
 $black: #000000 !default;
+.color-transparent-white {
+    color: $transparent-white;
+}
+
 .color-white {
     color: $white;
 }

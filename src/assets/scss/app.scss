@@ -13,6 +13,17 @@
     font-weight: 100;
 }
 
-.bg-gradient {
-    background-image: linear-gradient(to right bottom, #2a1d39, #3b2952, #4d366d, #5f4389, #7151a6);
+hr {
+    border-top: 1px solid $transparent-white;
+}
+
+.btn-js {
+    color: #ffe484;
+    border-color: #ffe484;
+    background-color: transparent;
+    background-image: none;
+    &:hover {
+        background-color: #ffe484;
+        color: #212529;
+    }
 }
