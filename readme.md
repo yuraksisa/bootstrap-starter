@@ -1,6 +1,6 @@
 # Bootstrap Starter (ZURB Style)
 
-Esta plantilla utiliza los estilos y scripts de [Bootstrap 4](http://getbootstrap.com/) pero viene preparada con la configuración de [Foundation ZURB Template](https://github.com/zurb/foundation-zurb-template).
+Esta plantilla utiliza los estilos y scripts de [Bootstrap 4](http://getbootstrap.com/) pero viene con la configuración de [Foundation ZURB Template](https://github.com/zurb/foundation-zurb-template).
 
 La plantilla viene configurada con un generador Gulp con las siguientes características:
 
