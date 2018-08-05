@@ -13,6 +13,21 @@ window.jQuery = $;
 // the line below
 require('./lib/bootstrap-explicit-pieces.js');
 
+
+/* Sticky footer */
+$(window).bind("load", function () {
+    var footer = $("footer");
+    var pos = footer.position();
+    var height = $(window).height();
+    height = height - pos.top;
+    height = height - 50;
+    if (height > 0) {
+        footer.css({
+            'margin-top': height + 'px'
+        });
+    }
+});
+
 // Index Page load
 $('body.index').ready(function () {
     // For index Page coding
