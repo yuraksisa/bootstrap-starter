@@ -1,17 +1,17 @@
 # Bootstrap Starter (ZURB Style)
 
-Esta plantilla utiliza los estilos y los scripts de  [Bootstrap 4](http://getbootstrap.com/)y la configuración de [Foundation ZURB Template](https://github.com/zurb/foundation-zurb-template)
+Esta plantilla utiliza los estilos y scripts de [Bootstrap 4](http://getbootstrap.com/) pero viene preparada con la configuración de [Foundation ZURB Template](https://github.com/zurb/foundation-zurb-template).
 
-Está configurada con un generador Gulp con las siguientes características:
+La plantilla viene configurada con un generador Gulp con las siguientes características:
 
-- Sistema de plantillas con panini
-- Sass compilación y prefijos
-- JavaScript agrupador de modulos con webpack
+- Sistema de plantillas con Panini
+- Compilación y prefijos CSS con Sass
+- Agrupador de modulos JavaScript con Webpack
 - Servidor local BrowserSync
 - Para construcción construye:
-  - CSS compresión
-  - JavaScript compresión
-  - Imágenes compresión
+  - Compresión de CSS
+  - Compresión de JavaScript
+  - Compresión de Imágenes
 
 ## Instalación
 
