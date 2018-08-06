@@ -33,7 +33,7 @@ function loadConfig() {
 
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
-    gulp.series(clean, gulp.parallel(pages, sass, javascript, images, copy)));
+    gulp.series(clean, gulp.parallel(pages, sass, javascript, images, fontawesome, copy)));
 
 // Build the site, run the server, and watch for file changes
 gulp.task('default',
@@ -50,6 +50,13 @@ function clean(done) {
 function copy() {
     return gulp.src(PATHS.assets)
         .pipe(gulp.dest(PATHS.dist + '/assets'));
+}
+
+// Fonts
+
+function fontawesome() {
+    return gulp.src("./node_modules/@fortawesome/fontawesome-free/webfonts/*.{woff,woff2,eot,svg,ttf}")
+        .pipe(gulp.dest(PATHS.dist + '/assets/fonts'));
 }
 
 // Copy page templates into finished HTML files
