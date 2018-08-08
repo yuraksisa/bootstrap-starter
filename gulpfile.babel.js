@@ -52,8 +52,7 @@ function copy() {
         .pipe(gulp.dest(PATHS.dist + '/assets'));
 }
 
-// Fonts
-
+// Copy Fontawesome fonts into dist folder
 function fontawesome() {
     return gulp.src("./node_modules/@fortawesome/fontawesome-free/webfonts/*.{woff,woff2,eot,svg,ttf}")
         .pipe(gulp.dest(PATHS.dist + '/assets/fonts'));
