@@ -1,4 +1,4 @@
-# Bootstrap Starter (ZURB Style)
+# Bootstrap Starter (ZURB Style) 
 
 Esta plantilla utiliza los estilos y scripts de [Bootstrap 4](http://getbootstrap.com/) con la configuración, sistema de construcción y estructura de archivos de [Foundation ZURB Template](https://github.com/zurb/foundation-zurb-template).
 
