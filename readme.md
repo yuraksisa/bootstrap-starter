@@ -25,7 +25,7 @@ Para utilizar la plantilla tu computadora necesita:
 
 ### Pasos
 
-Primero descarga la plantilla de Git desde el repositorio
+Haz un clon o descarga la plantilla desde el repositorio
 
 ```bash
 git clone clone https://github.com/yuraksisa/bootstrap-starter.git
